@@ -1,0 +1,38 @@
+@import url("../GlobalStyles//GlobalStyles.scss");
+.product-list-container {
+  padding: 1rem;
+  @media screen and (max-width: 1200px) {
+    .product-list {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .product-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .product-list {
+      gap: 2rem;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .product-list {
+      gap: 2.5rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    input {
+      width: 80%;
+    }
+    .product-list {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 360px) {
+    padding: 1.5rem;
+    input {
+      width: 90%;
+    }
+  }
+}

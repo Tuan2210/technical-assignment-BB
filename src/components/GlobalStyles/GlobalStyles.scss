@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-width: 100dvw;
+  min-height: 100dvh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  // cursor: default;
+}
+
+img {
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+p,
+span,
+a {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
